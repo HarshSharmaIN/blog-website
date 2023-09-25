@@ -1,3 +1,8 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -13,6 +18,28 @@
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.edit-btn {
+  height: 7vh;
+  width: 4vw;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  bottom: 10vh;
+  right: 7vw;
+  background-color: #1abc9c !important;
+  transition: 1s;
+}
+
+.edit-btn:hover {
+  background-color: #cbc7c7 !important;
 }
 
 .footer-padding {
